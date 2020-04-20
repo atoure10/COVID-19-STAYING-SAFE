@@ -9,18 +9,18 @@ console.log(textDiv)
 textDiv.addEventListener("click", ()=>{
   textDiv.innerHTML="you clicked me!!!"
   
-})
-let distanceDiv= document.querySelector("#btn2")
+});
+let distanceDiv= document.querySelector("#money2")
 console.log(distanceDiv)
 
 distanceDiv.addEventListener("click", ()=>{
   distanceDiv.innerHTML="stay away"
   
-})
-let lextDiv= document.querySelector("#btn3")
-console.log(lextDiv)
+});
+let facDiv= document.querySelector("#cake3")
+console.log(facDiv)
 
-lextDiv.addEventListener("click", ()=>{
-  lextDiv.innerHTML="don't touch it"
+facDiv.addEventListener("click", ()=>{
+facDiv.innerHTML="don't touch it"
   
-})
+});
