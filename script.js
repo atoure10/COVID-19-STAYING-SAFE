@@ -10,14 +10,14 @@ textDiv.addEventListener("click", ()=>{
   textDiv.innerHTML="you clicked me!!!"
   
 })
-let nextDiv= document.querySelector(".atn")
-console.log(textDiv)
+let nextDiv= document.querySelector("#btn1")
+console.log(nextDiv)
 
-textDiv.addEventListener("click", ()=>{
-  textDiv.innerHTML="you clicked me!!!"
+nextDiv.addEventListener("click", ()=>{
+  nextDiv.innerHTML="you clicked me!!!"
   
 })
-let lextDiv= document.querySelector(".btn1")
+let lextDiv= document.querySelector(".btn")
 console.log(textDiv)
 
 textDiv.addEventListener("click", ()=>{
