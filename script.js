@@ -3,3 +3,24 @@
 
 // prints "hi" in the browser's dev tools console
 console.log("hi");
+let textDiv= document.querySelector(".btn")
+console.log(textDiv)
+
+textDiv.addEventListener("click", ()=>{
+  textDiv.innerHTML="you clicked me!!!"
+  
+})
+let nextDiv= document.querySelector(".btn-1")
+console.log(textDiv)
+
+textDiv.addEventListener("click", ()=>{
+  textDiv.innerHTML="you clicked me!!!"
+  
+})
+let lextDiv= document.querySelector(".btn1")
+console.log(textDiv)
+
+textDiv.addEventListener("click", ()=>{
+  textDiv.innerHTML="you clicked me!!!"
+  
+})
