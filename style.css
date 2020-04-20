@@ -14,9 +14,17 @@ body {
 
 h1 {
   font-style: italic;
-  color: #373fff
+  color: blue;  
+  padding-top:300px;
+}
+
 }
 #card1{
   padding-left:400px;
 }
     
+#carouselExampleIndicators{
+  margin-left: 50px;
+  margin-right:50px;
+  padding-top: 300px;
+}
