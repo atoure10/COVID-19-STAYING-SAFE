@@ -10,7 +10,7 @@ textDiv.addEventListener("click", ()=>{
   textDiv.innerHTML="you clicked me!!!"
   
 })
-let nextDiv= document.querySelector(".btn-1")
+let nextDiv= document.querySelector(".atn")
 console.log(textDiv)
 
 textDiv.addEventListener("click", ()=>{
